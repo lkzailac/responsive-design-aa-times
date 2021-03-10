@@ -29,3 +29,28 @@
     grid-row-start: 3;
     grid-column-start: 2;
 }
+
+.masthead__menu-and-search {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /* padding-left: 20px; */
+}
+
+.masthead__menu-and-search div {
+    margin-right: 25px;
+
+}
+
+.masthead__button {
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+}
+
+.masthead__button:hover {
+    background-color: #f7f7f5;
+}
