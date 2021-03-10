@@ -1,0 +1,15 @@
+
+header,
+main,
+footer {
+    max-width: 1400px;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+body{
+    font-family: "arial, helvetica, sans-serif";
+    line-height: 1em;
+    
+}
