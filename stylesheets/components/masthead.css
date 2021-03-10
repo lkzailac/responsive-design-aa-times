@@ -6,14 +6,29 @@
 
 .masthead__menu-and-search{
     grid-column-end: 0;
+    padding-top: 10px;
+    align-items: center;
 }
 
 .masthead__actions{
+    display: flex;
     grid-column-start: 3;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
 }
 
 .masthead__technologies{
     grid-column-start: 2;
+    text-align: center;
+}
+.masthead__tech{
+    margin: 0 4px;
+}
+.masthead__tech-list{
+    color: #6f6f6f;
+    font-size: 10px;
+    text-transform: uppercase;
 }
 
 .masthead__date{
@@ -23,11 +38,19 @@
 .masthead__paper{
     grid-row-start: 3;
     grid-column-start: 3;
+    display: flex;
+    justify-content: flex-end;
 }
+/* .masthead__paper-icon{
+    display: flex;
+    justify-content: flex-end;
+} */
 
 .masthead__logo{
     grid-row-start: 3;
     grid-column-start: 2;
+    text-align: center;
+
 }
 
 .masthead__menu-and-search {

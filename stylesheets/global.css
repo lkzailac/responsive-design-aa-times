@@ -14,6 +14,21 @@ body{
 
 }
 
-.masthead__button {
+button{
+    background-color: lightblue;
+    border-radius: 3px;
+    font-weight: 600;
+    color: white;
+    font-family: "arial, helvetica, sans-serif";
+    font-size: 11pt;
+    padding: 7px 9px;
+    margin: 0 4px;
+    transition-property: background-color;
+    transition-duration: .3s;
 
+}
+button:hover{
+    background-color: blue;
+    text-transform: uppercase;
+    
 }
